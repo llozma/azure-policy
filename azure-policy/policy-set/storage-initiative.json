@@ -1,0 +1,278 @@
+{
+    "name":"pol-storage",
+    "type": "Custom",
+    "category": "Storage",
+    "managementGroupName": "",
+    "parameters": {
+        "effect": {
+            "type": "String",
+            "metadata" : {
+                "displayName":"Storage Security Policy Initiative"
+            },
+            "defaultValue": "Deny"
+        }
+    },
+    "memberDefinitions": [
+        {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/ddcf4b94-9dfa-4a80-aca6-22bb654fde72",
+            "name": "Azure NetApp Files SMB Volumes should use SMB3 encryption",
+            "parameter_values": {
+              "effect": {
+                "value": "[parameters('effect')]"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/a06d0189-92e8-4dba-b0c4-08d7669fce7d",
+            "name": "Configure storage accounts to disable public network access",
+            "parameter_values": {
+              "effect": {
+                "value": "Disabled"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/d558e1a6-296d-4fbb-81a5-ea25822639f6",
+            "name": "Azure NetApp Files Volumes should not use NFSv3 protocol type",
+            "parameter_values": {
+              "effect": {
+                "value": "[parameters('effect')]"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/0e07b2e9-6cd9-4c40-9ccb-52817b95133b",
+            "name": "Modify - Configure Azure File Sync to disable public network access",
+            "parameter_values": {
+              "effect": {
+                "value": "Disabled"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/13502221-8df0-4414-9937-de9c5c4e396b",
+            "name": "Configure your Storage account public access to be disallowed",
+            "parameter_values": {
+              "effect": {
+                "value": "Disabled"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/7c6c7139-7d8e-45d0-9d94-72386a61308b",
+            "name": "Azure NetApp Files Volumes of type 'NFSv4.1' should use Kerberos data encryption",
+            "parameter_values": {
+              "effect": {
+                "value": "Audit"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/b2982f36-99f2-4db5-8eff-283140c09693",
+            "name": "Storage accounts should disable public network access",
+            "parameter_values": {
+              "effect": {
+                "value": "[parameters('effect')]"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/37e0d2fe-28a5-43d6-a273-67d37d1f5606",
+            "name": "Storage accounts should be migrated to new Azure Resource Manager resources",
+            "parameter_values": {
+              "effect": {
+                "value": "Audit"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/8c6a50c6-9ffd-4ae7-986f-5fa6111f9a54",
+            "name": "Storage accounts should prevent shared key access",
+            "parameter_values": {
+              "effect": {
+                "value": "Audit"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/404c3081-a854-4457-ae30-26a93ef643f9",
+            "name": "Secure transfer to storage accounts should be enabled",
+            "parameter_values": {
+              "effect": {
+                "value": "[parameters('effect')]"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/c9d007d0-c057-4772-b18c-01e546713bcd",
+            "name": "Storage accounts should allow access from trusted Microsoft services",
+            "parameter_values": {
+              "effect": {
+                "value": "Audit"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/f0e5abd0-2554-4736-b7c0-4ffef23475ef",
+            "name": "Queue Storage should use customer-managed key for encryption",
+            "parameter_values": {
+              "effect": {
+                "value": "Audit"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/bfecdea6-31c4-4045-ad42-71b9dc87247d",
+            "name": "Storage account encryption scopes should use double encryption for data at rest",
+            "parameter_values": {
+              "effect": {
+                "value": "Audit"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/fe83a0eb-a853-422d-aac2-1bffd182c5d0",
+            "name": "Storage accounts should have the specified minimum TLS version",
+            "parameter_values": {
+              "effect": {
+                "value": "[parameters('effect')]"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/6edd7eda-6dd8-40f7-810d-67160c639cd9",
+            "name": "Storage accounts should use private link",
+            "parameter_values": {
+              "effect": {
+                "value": "AuditIfNotExists"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/16f4af95-96b1-4220-805a-367ca59cd72e",
+            "name": "Azure NetApp Files Volumes of type NFSv4.1 should use Kerberos data integrity or data privacy",
+            "parameter_values": {
+              "effect": {
+                "value": "Audit"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/4733ea7b-a883-42fe-8cac-97454c2a9e4a",
+            "name": "Storage accounts should have infrastructure encryption",
+            "parameter_values": {
+              "effect": {
+                "value": "Audit"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/044985bb-afe1-42cd-8a36-9d5d42424537",
+            "name": "Storage account keys should not be expired",
+            "parameter_values": {
+              "effect": {
+                "value": "Audit"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/f81e3117-0093-4b17-8a60-82363134f0eb",
+            "name": "Configure secure transfer of data on a storage account",
+            "parameter_values": {
+              "effect": {
+                "value": "Disabled"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/34c877ad-507e-4c82-993e-3452a6e0ad3c",
+            "name": "Storage accounts should restrict network access",
+            "parameter_values": {
+              "effect": {
+                "value": "[parameters('effect')]"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/92a89a79-6c52-4a7e-a03f-61306fc49312",
+            "name": "Storage accounts should prevent cross tenant object replication",
+            "parameter_values": {
+              "effect": {
+                "value": "[parameters('effect')]"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/2a1a9cdf-e04d-429a-8416-3bfb72a1b26f",
+            "name": "Storage accounts should restrict network access using virtual network rules",
+            "parameter_values": {
+              "effect": {
+                "value": "[parameters('effect')]"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/21a8cd35-125e-4d13-b82d-2e19b7208bb7",
+            "name": "Public network access should be disabled for Azure File Sync",
+            "parameter_values": {
+              "effect": {
+                "value": "[parameters('effect')]"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/c36a325b-ae04-4863-ad4f-19c6678f8e08",
+            "name": "Configure your Storage account to enable blob versioning",
+            "parameter_values": {
+              "effect": {
+                "value": "[parameters('effect')]"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/978deb5d-c9a7-41f8-b4b2-b76880d0de1f",
+            "name": "Modify - Configure your Storage account to enable blob versioning",
+            "parameter_values": {
+              "effect": {
+                "value": "Disabled"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/b5ec538c-daa0-4006-8596-35468b9148e8",
+            "name": "Storage account encryption scopes should use customer-managed keys to encrypt data at rest",
+            "parameter_values": {
+              "effect": {
+                "value": "Audit"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/4fa4b6c0-31ca-4c0d-b10d-24b96f62a751",
+            "name": "Storage account public access should be disallowed",
+            "parameter_values": {
+              "effect": {
+                "value": "[parameters('effect')]"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/6fac406b-40ca-413b-bf8e-0bf964659c25",
+            "name": "Storage accounts should use customer-managed key for encryption",
+            "parameter_values": {
+              "effect": {
+                "value": "Audit"
+              }
+            }
+          },
+          {
+            "id": "/providers/Microsoft.Authorization/policyDefinitions/7c322315-e26d-4174-a99e-f49d351b4688",
+            "name": "Table Storage should use customer-managed key for encryption",
+            "parameter_values": {
+              "effect": {
+                "value": "Audit"
+              }
+            }
+          }
+        ]
+}
