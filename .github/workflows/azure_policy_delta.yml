@@ -38,7 +38,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python scripts/check_azure_policy_delta.py
+          python scripts/check_azure_policy_delta_pipeline.py
 
       - name: Upload report artifact
         uses: actions/upload-artifact@v4
