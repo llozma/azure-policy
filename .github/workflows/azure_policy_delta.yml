@@ -33,11 +33,17 @@ jobs:
           mkdir -p policy-set
           mkdir -p reports
 
+      - name: Show repository files
+        run: |
+          pwd
+          ls -la
+          find . -maxdepth 3 -type f
+
       - name: Run Azure Policy delta check
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python azure_policy/scripts/check_azure_policy_delta.py
+          python scripts/check_azure_policy_delta.py
 
       - name: Upload report artifact
         uses: actions/upload-artifact@v4
