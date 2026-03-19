@@ -2,10 +2,14 @@ name: Azure Policy Delta
 
 on:
   workflow_dispatch:
-  
+
 permissions:
   contents: write
   issues: write
+
+defaults:
+  run:
+    working-directory: azure-policy
 
 jobs:
   detect-delta:
@@ -14,8 +18,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
+
+      - name: Show repository files
+        run: |
+          pwd
+          find . -maxdepth 4 -type f | sort
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -27,12 +34,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Ensure folders exist
-        run: |
-          mkdir -p config
-          mkdir -p policy-set
-          mkdir -p reports
-
       - name: Run Azure Policy delta check
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -43,7 +44,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: azure-policy-delta-report
-          path: reports/latest-report.md
+          path: azure-policy/reports/latest-report.md
           if-no-files-found: error
 
       - name: Commit changed files
