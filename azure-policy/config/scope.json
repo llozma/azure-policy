@@ -1,0 +1,13 @@
+{
+  "categories": [
+    "Storage"
+  ],
+  "allowedEffects": [
+    "Audit",
+    "Deny",
+    "DeployIfNotExists",
+    "Modify"
+  ],
+  "excludePreview": true,
+  "excludeDeprecated": true
+}
