@@ -227,9 +227,6 @@ def is_relevant(info: Dict[str, Any], scope: Dict[str, Any]) -> Tuple[bool, List
     if scope.get("excludeDeprecated", True) and info["deprecated"]:
         return False, reasons
 
-    #if scope.get("excludePreview", True) and info["preview"]:
-    #    return False, reasons
-
     categories = set(scope.get("categories", []))
     allowed_effects = set(scope.get("allowedEffects", []))
 
@@ -346,7 +343,6 @@ def determine_outcome(
     status_data: Dict[str, Any],
 ) -> Tuple[str, Optional[Dict[str, Any]], Optional[str]]:
     """
-    Gibt zurück:
     outcome:
       - in_initiative
       - new_candidate
