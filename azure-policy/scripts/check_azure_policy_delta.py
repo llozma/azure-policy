@@ -401,7 +401,7 @@ def path_matches_scope(path: str, scope: Dict[str, Any]) -> bool:
 
     return any(category in path_lower for category in categories)
 
-def main(): 
+def main() -> int:
   
     baseline = load_json(BASELINE_PATH)
     scope = load_json(SCOPE_PATH)
