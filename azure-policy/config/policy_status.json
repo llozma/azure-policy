@@ -1,7 +1,7 @@
 {
   "policies": {
     "/providers/microsoft.authorization/policydefinitions/ddcf4b94-9dfa-4a80-aca6-22bb654fde72": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Azure NetApp Files SMB Volumes should use SMB3 encryption",
       "category": "Storage",
@@ -12,7 +12,7 @@
       "lastReviewedVersion": "1.0.0"
     },
     "/providers/microsoft.authorization/policydefinitions/d558e1a6-296d-4fbb-81a5-ea25822639f6": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Azure NetApp Files Volumes should not use NFSv3 protocol type",
       "category": "Storage",
@@ -23,7 +23,7 @@
       "lastReviewedVersion": "1.0.0"
     },
     "/providers/microsoft.authorization/policydefinitions/7c6c7139-7d8e-45d0-9d94-72386a61308b": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Azure NetApp Files Volumes of type NFSv4.1 should use Kerberos data encryption",
       "category": "Storage",
@@ -34,7 +34,7 @@
       "lastReviewedVersion": "1.0.0"
     },
     "/providers/microsoft.authorization/policydefinitions/16f4af95-96b1-4220-805a-367ca59cd72e": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Azure NetApp Files Volumes of type NFSv4.1 should use Kerberos data integrity or data privacy",
       "category": "Storage",
@@ -45,7 +45,7 @@
       "lastReviewedVersion": "1.0.0"
     },
     "/providers/microsoft.authorization/policydefinitions/21a8cd35-125e-4d13-b82d-2e19b7208bb7": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Public network access should be disabled for Azure File Sync",
       "category": "Storage",
@@ -56,7 +56,7 @@
       "lastReviewedVersion": "1.0.0"
     },
     "/providers/microsoft.authorization/policydefinitions/0e07b2e9-6cd9-4c40-9ccb-52817b95133b": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Modify - Configure Azure File Sync to disable public network access",
       "category": "Storage",
@@ -69,7 +69,7 @@
     "/providers/microsoft.authorization/policydefinitions/06695360-db88-47f6-b976-7500d4297475": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.1.0",
       "displayName": "Configure Azure File Sync to use private DNS zones",
       "category": "Storage",
@@ -78,7 +78,7 @@
     "/providers/microsoft.authorization/policydefinitions/1d320205-c6a1-4ac6-873d-46224024e8e2": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Azure File Sync should use private link",
       "category": "Storage",
@@ -87,14 +87,14 @@
     "/providers/microsoft.authorization/policydefinitions/b35dddd9-daf7-423b-8375-5a5b86806d5a": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Configure Azure File Sync with private endpoints",
       "category": "Storage",
       "path": "built-in-policies/policyDefinitions/Storage/StorageSync_PrivateEndpoint_DINE.json"
     },
     "/providers/microsoft.authorization/policydefinitions/b5ec538c-daa0-4006-8596-35468b9148e8": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Storage account encryption scopes should use customer-managed keys to encrypt data at rest",
       "category": "Storage",
@@ -105,7 +105,7 @@
       "lastReviewedVersion": "1.0.0"
     },
     "/providers/microsoft.authorization/policydefinitions/4fa4b6c0-31ca-4c0d-b10d-24b96f62a751": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "3.1.1",
       "displayName": "Storage account public access should be disallowed",
       "category": "Storage",
@@ -118,7 +118,7 @@
     "/providers/microsoft.authorization/policydefinitions/59759c62-9a22-4cdf-ae64-074495983fef": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "4.0.0",
       "displayName": "Configure diagnostic settings for Storage Accounts to Log Analytics workspace",
       "category": "Storage",
@@ -127,7 +127,7 @@
     "/providers/microsoft.authorization/policydefinitions/7433c107-6db4-4ad1-b57a-a76dce0154a1": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.1.0",
       "displayName": "Storage accounts should be limited by allowed SKUs",
       "category": "Storage",
@@ -136,14 +136,14 @@
     "/providers/microsoft.authorization/policydefinitions/b4fe1a3b-0715-4c6c-a5ea-ffc33cf823cb": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "4.0.0",
       "displayName": "Configure diagnostic settings for Blob Services to Log Analytics workspace",
       "category": "Storage",
       "path": "built-in-policies/policyDefinitions/Storage/BlobServicesLogsToWorkspace_DINE.json"
     },
     "/providers/microsoft.authorization/policydefinitions/37e0d2fe-28a5-43d6-a273-67d37d1f5606": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Storage accounts should be migrated to new Azure Resource Manager resources",
       "category": "Storage",
@@ -156,7 +156,7 @@
     "/providers/microsoft.authorization/policydefinitions/7aa1c9d5-3d7e-4579-8117-d85e99211757": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Storage SAS tokens should adhere to 7 day maximum validity",
       "category": "Storage",
@@ -165,7 +165,7 @@
     "/providers/microsoft.authorization/policydefinitions/25a70cc8-2bd4-47f1-90b6-1478e4662c96": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "4.0.0",
       "displayName": "Configure diagnostic settings for File Services to Log Analytics workspace",
       "category": "Storage",
@@ -174,7 +174,7 @@
     "/providers/microsoft.authorization/policydefinitions/edfb40e6-36fe-4928-96e9-e921bc7dfc70": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Public network access should be disabled for file share with Microsoft.FileShares",
       "category": "Storage",
@@ -183,7 +183,7 @@
     "/providers/microsoft.authorization/policydefinitions/32395e13-9837-458f-936d-4b21b1e37694": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Configure file share with Microsoft.FileShares to disable public network access",
       "category": "Storage",
@@ -192,7 +192,7 @@
     "/providers/microsoft.authorization/policydefinitions/f628ffa2-2900-47aa-ab09-3ecb844f2ae8": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Configure file share with Microsoft.FileShares to use private DNS zones",
       "category": "Storage",
@@ -201,7 +201,7 @@
     "/providers/microsoft.authorization/policydefinitions/bf045164-79ba-4215-8f95-f8048dc1780b": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Geo-redundant storage should be enabled for Storage Accounts",
       "category": "Storage",
@@ -210,14 +210,14 @@
     "/providers/microsoft.authorization/policydefinitions/7bd000e3-37c7-4928-9f31-86c4b77c5c45": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "4.0.1",
       "displayName": "Configure diagnostic settings for Queue Services to Log Analytics workspace",
       "category": "Storage",
       "path": "built-in-policies/policyDefinitions/Storage/QueueServicesLogsToWorkspace_DINE.json"
     },
     "/providers/microsoft.authorization/policydefinitions/c9d007d0-c057-4772-b18c-01e546713bcd": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Storage accounts should allow access from trusted Microsoft services",
       "category": "Storage",
@@ -228,7 +228,7 @@
       "lastReviewedVersion": "1.0.0"
     },
     "/providers/microsoft.authorization/policydefinitions/92a89a79-6c52-4a7e-a03f-61306fc49312": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Storage accounts should prevent cross tenant object replication",
       "category": "Storage",
@@ -241,14 +241,14 @@
     "/providers/microsoft.authorization/policydefinitions/fd9903f1-38c2-4d36-8e44-5c1c20c561e8": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Storage accounts should prevent shared key access (excluding storage accounts created by Databricks)",
       "category": "Storage",
       "path": "built-in-policies/policyDefinitions/Storage/StorageAccountAllowSharedKeyAccessWithDatabricksExcluded_Audit.json"
     },
     "/providers/microsoft.authorization/policydefinitions/8c6a50c6-9ffd-4ae7-986f-5fa6111f9a54": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "2.0.0",
       "displayName": "Storage accounts should prevent shared key access",
       "category": "Storage",
@@ -259,7 +259,7 @@
       "lastReviewedVersion": "2.0.0"
     },
     "/providers/microsoft.authorization/policydefinitions/6fac406b-40ca-413b-bf8e-0bf964659c25": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.3",
       "displayName": "Storage accounts should use customer-managed key for encryption",
       "category": "Storage",
@@ -270,7 +270,7 @@
       "lastReviewedVersion": "1.0.3"
     },
     "/providers/microsoft.authorization/policydefinitions/13502221-8df0-4414-9937-de9c5c4e396b": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Configure your Storage account public access to be disallowed",
       "category": "Storage",
@@ -281,7 +281,7 @@
       "lastReviewedVersion": "1.0.0"
     },
     "/providers/microsoft.authorization/policydefinitions/c36a325b-ae04-4863-ad4f-19c6678f8e08": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Configure your Storage account to enable blob versioning",
       "category": "Storage",
@@ -292,7 +292,7 @@
       "lastReviewedVersion": "1.0.0"
     },
     "/providers/microsoft.authorization/policydefinitions/978deb5d-c9a7-41f8-b4b2-b76880d0de1f": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Modify - Configure your Storage account to enable blob versioning",
       "category": "Storage",
@@ -303,7 +303,7 @@
       "lastReviewedVersion": "1.0.0"
     },
     "/providers/microsoft.authorization/policydefinitions/4733ea7b-a883-42fe-8cac-97454c2a9e4a": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Storage accounts should have infrastructure encryption",
       "category": "Storage",
@@ -314,7 +314,7 @@
       "lastReviewedVersion": "1.0.0"
     },
     "/providers/microsoft.authorization/policydefinitions/044985bb-afe1-42cd-8a36-9d5d42424537": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "3.0.0",
       "displayName": "Storage account keys should not be expired",
       "category": "Storage",
@@ -325,7 +325,7 @@
       "lastReviewedVersion": "3.0.0"
     },
     "/providers/microsoft.authorization/policydefinitions/fe83a0eb-a853-422d-aac2-1bffd182c5d0": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Storage accounts should have the specified minimum TLS version",
       "category": "Storage",
@@ -338,14 +338,14 @@
     "/providers/microsoft.authorization/policydefinitions/db4f9b05-5ffd-4b34-b714-3c710dbb3fd6": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Storage accounts should restrict network access using virtual network rules (excluding storage accounts created by Databricks)",
       "category": "Storage",
       "path": "built-in-policies/policyDefinitions/Storage/StorageAccountOnlyVnetRulesEnabledWithDatabricksExcluded_Audit.json"
     },
     "/providers/microsoft.authorization/policydefinitions/2a1a9cdf-e04d-429a-8416-3bfb72a1b26f": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.1",
       "displayName": "Storage accounts should restrict network access using virtual network rules",
       "category": "Storage",
@@ -358,14 +358,14 @@
     "/providers/microsoft.authorization/policydefinitions/1604f626-4d8d-4124-8bb8-b1e5f95562de": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Storage accounts should use private link (excluding storage accounts created by Databricks)",
       "category": "Storage",
       "path": "built-in-policies/policyDefinitions/Storage/StorageAccountPrivateEndpointEnabledWithDatabricksExcluded_Audit.json"
     },
     "/providers/microsoft.authorization/policydefinitions/6edd7eda-6dd8-40f7-810d-67160c639cd9": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "2.0.0",
       "displayName": "Storage accounts should use private link",
       "category": "Storage",
@@ -378,7 +378,7 @@
     "/providers/microsoft.authorization/policydefinitions/9f766f00-8d11-464e-80e1-4091d7874074": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Configure Storage account to use a private link connection",
       "category": "Storage",
@@ -387,14 +387,14 @@
     "/providers/microsoft.authorization/policydefinitions/bc1b984e-ddae-40cc-801a-050a030e4fbe": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Storage accounts should have shared access signature (SAS) policies configured",
       "category": "Storage",
       "path": "built-in-policies/policyDefinitions/Storage/StorageAccountSasPolicy_Restrict.json"
     },
     "/providers/microsoft.authorization/policydefinitions/f81e3117-0093-4b17-8a60-82363134f0eb": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Configure secure transfer of data on a storage account",
       "category": "Storage",
@@ -407,14 +407,14 @@
     "/providers/microsoft.authorization/policydefinitions/970f84d8-71b6-4091-9979-ace7e3fb6dbb": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "2.0.0",
       "displayName": "HPC Cache accounts should use customer-managed key for encryption",
       "category": "Storage",
       "path": "built-in-policies/policyDefinitions/Storage/StorageCache_CMKEnabled.json"
     },
     "/providers/microsoft.authorization/policydefinitions/bfecdea6-31c4-4045-ad42-71b9dc87247d": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Storage account encryption scopes should use double encryption for data at rest",
       "category": "Storage",
@@ -427,7 +427,7 @@
     "/providers/microsoft.authorization/policydefinitions/75973700-529f-4de2-b794-fb9b6781b6b0": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Configure a private DNS Zone ID for blob groupID",
       "category": "Storage",
@@ -436,7 +436,7 @@
     "/providers/microsoft.authorization/policydefinitions/d847d34b-9337-4e2d-99a5-767e5ac9c582": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Configure a private DNS Zone ID for blob_secondary groupID",
       "category": "Storage",
@@ -445,7 +445,7 @@
     "/providers/microsoft.authorization/policydefinitions/83c6fe0f-2316-444a-99a1-1ecd8a7872ca": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Configure a private DNS Zone ID for dfs groupID",
       "category": "Storage",
@@ -454,7 +454,7 @@
     "/providers/microsoft.authorization/policydefinitions/90bd4cb3-9f59-45f7-a6ca-f69db2726671": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Configure a private DNS Zone ID for dfs_secondary groupID",
       "category": "Storage",
@@ -463,7 +463,7 @@
     "/providers/microsoft.authorization/policydefinitions/6df98d03-368a-4438-8730-a93c4d7693d6": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Configure a private DNS Zone ID for file groupID",
       "category": "Storage",
@@ -472,7 +472,7 @@
     "/providers/microsoft.authorization/policydefinitions/bcff79fb-2b0d-47c9-97e5-3023479b00d1": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Configure a private DNS Zone ID for queue groupID",
       "category": "Storage",
@@ -481,7 +481,7 @@
     "/providers/microsoft.authorization/policydefinitions/da9b4ae8-5ddc-48c5-b9c0-25f8abf7a3d6": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Configure a private DNS Zone ID for queue_secondary groupID",
       "category": "Storage",
@@ -490,7 +490,7 @@
     "/providers/microsoft.authorization/policydefinitions/028bbd88-e9b5-461f-9424-a1b63a7bee1a": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Configure a private DNS Zone ID for table groupID",
       "category": "Storage",
@@ -499,7 +499,7 @@
     "/providers/microsoft.authorization/policydefinitions/c1d634a5-f73d-4cdd-889f-2cc7006eb47f": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Configure a private DNS Zone ID for table_secondary groupID",
       "category": "Storage",
@@ -508,7 +508,7 @@
     "/providers/microsoft.authorization/policydefinitions/9adab2a5-05ba-4fbd-831a-5bf958d04218": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Configure a private DNS Zone ID for web groupID",
       "category": "Storage",
@@ -517,14 +517,14 @@
     "/providers/microsoft.authorization/policydefinitions/d19ae5f1-b303-4b82-9ca8-7682749faf0c": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Configure a private DNS Zone ID for web_secondary groupID",
       "category": "Storage",
       "path": "built-in-policies/policyDefinitions/Storage/StoragePrivateDnsZoneGroup_WebSecondary.json"
     },
     "/providers/microsoft.authorization/policydefinitions/b2982f36-99f2-4db5-8eff-283140c09693": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.1",
       "displayName": "Storage accounts should disable public network access",
       "category": "Storage",
@@ -535,7 +535,7 @@
       "lastReviewedVersion": "1.0.1"
     },
     "/providers/microsoft.authorization/policydefinitions/a06d0189-92e8-4dba-b0c4-08d7669fce7d": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.1",
       "displayName": "Configure storage accounts to disable public network access",
       "category": "Storage",
@@ -546,7 +546,7 @@
       "lastReviewedVersion": "1.0.1"
     },
     "/providers/microsoft.authorization/policydefinitions/f0e5abd0-2554-4736-b7c0-4ffef23475ef": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
       "displayName": "Queue Storage should use customer-managed key for encryption",
       "category": "Storage",
@@ -557,7 +557,7 @@
       "lastReviewedVersion": "1.0.0"
     },
     "/providers/microsoft.authorization/policydefinitions/404c3081-a854-4457-ae30-26a93ef643f9": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "2.0.0",
       "displayName": "Secure transfer to storage accounts should be enabled",
       "category": "Storage",
@@ -568,7 +568,7 @@
       "lastReviewedVersion": "2.0.0"
     },
     "/providers/microsoft.authorization/policydefinitions/34c877ad-507e-4c82-993e-3452a6e0ad3c": {
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.1.1",
       "displayName": "Storage accounts should restrict network access",
       "category": "Storage",
@@ -581,11 +581,20 @@
     "/providers/microsoft.authorization/policydefinitions/2fb86bf3-d221-43d1-96d1-2434af34eaa0": {
       "status": "rejected",
       "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
+      "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "4.0.1",
       "displayName": "Configure diagnostic settings for Table Services to Log Analytics workspace",
       "category": "Storage",
       "path": "built-in-policies/policyDefinitions/Storage/TableServicesLogsToWorkspace_DINE.json"
+    },
+    "/providers/microsoft.authorization/policydefinitions/7c322315-e26d-4174-a99e-f49d351b4688": {
+      "status": "candidate",
+      "firstSeenDate": "2026-03-24",
+      "lastSeenDate": "2026-03-24",
+      "lastSeenVersion": "1.0.0",
+      "displayName": "Table Storage should use customer-managed key for encryption",
+      "category": "Storage",
+      "path": "built-in-policies/policyDefinitions/Storage/StorageTableCustomerManagedKeyEnabled_Audit.json"
     }
   }
 }
