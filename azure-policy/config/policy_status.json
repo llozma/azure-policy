@@ -588,7 +588,7 @@
       "path": "built-in-policies/policyDefinitions/Storage/TableServicesLogsToWorkspace_DINE.json"
     },
     "/providers/microsoft.authorization/policydefinitions/7c322315-e26d-4174-a99e-f49d351b4688": {
-      "status": "candidate",
+      "status": "rejected",
       "firstSeenDate": "2026-03-24",
       "lastSeenDate": "2026-03-24",
       "lastSeenVersion": "1.0.0",
