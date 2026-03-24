@@ -586,15 +586,6 @@
       "displayName": "Configure diagnostic settings for Table Services to Log Analytics workspace",
       "category": "Storage",
       "path": "built-in-policies/policyDefinitions/Storage/TableServicesLogsToWorkspace_DINE.json"
-    },
-    "/providers/microsoft.authorization/policydefinitions/7c322315-e26d-4174-a99e-f49d351b4688": {
-      "status": "accepted",
-      "firstSeenDate": "2026-03-19",
-      "lastSeenDate": "2026-03-19",
-      "lastSeenVersion": "1.0.0",
-      "displayName": "Table Storage should use customer-managed key for encryption",
-      "category": "Storage",
-      "path": "built-in-policies/policyDefinitions/Storage/StorageTableCustomerManagedKeyEnabled_Audit.json"
     }
   }
 }
